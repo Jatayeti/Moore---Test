@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+hr {
+    margin: 1rem 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.mb-10 {
+    margin-bottom: 10rem;
+}
+
+footer {
+    width: 100%;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer h6 {
+    font-size: .8rem;
+    margin: 0;
+    color: #ccc;
+}
